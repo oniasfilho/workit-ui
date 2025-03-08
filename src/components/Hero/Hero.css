@@ -1,0 +1,33 @@
+.hero-section {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+  padding: var(--standard-padding);
+  padding-top: 0;
+  text-align: center;
+  overflow: visible;
+}
+
+.hero-text {
+  padding-top: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-underline-text {
+  text-decoration: underline var(--color-secondary) 0.075rem;
+  text-underline-offset: 0.25rem;
+}
+
+.hero-underline-text:hover {
+  cursor: pointer;
+}
+
+.hero-image {
+  margin-top: 4rem;
+  background-image: url("../../assets/images/image-hero.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}

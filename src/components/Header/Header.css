@@ -6,6 +6,7 @@
   font-family: var(--font-body);
   font-size: var(--font-size-body);
   padding: var(--standard-padding);
+  background-color: var(--color-primary);
 }
 
 .logo {

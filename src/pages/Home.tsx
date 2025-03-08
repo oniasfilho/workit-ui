@@ -7,8 +7,10 @@ import Hero from "../components/Hero/Hero";
 const Home = () => {
   return (
     <div className="home-wrapper">
-      <Header />
-      <Hero />
+      <div className="upper-section">
+        <Header />
+        <Hero />
+      </div>
       <Feature />
       <CallToAction />
       <Footer />
