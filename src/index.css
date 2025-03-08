@@ -22,8 +22,8 @@
   --color-light-gray: #f7f3f7;
   --color-white: #ffffff;
 
-  --font-heading: 'Fraunces 144', serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-heading: "Fraunces 144", serif;
+  --font-body: "Manrope", sans-serif;
 
   --font-weight-semi-bold: 600;
   --font-weight-regular: 400;
@@ -62,7 +62,9 @@
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-semi-bold);
 }
@@ -116,4 +118,8 @@ body {
 .button-secondary:hover {
   border: 2px solid var(--button-secondary-hover-border);
   color: var(--button-secondary-hover-border);
+}
+
+.green-underline {
+  border-bottom: var(--color-secondary) 1px solid;
 }

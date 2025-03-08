@@ -1,7 +1,7 @@
 import "./CallToAction.css";
 
 const CallToAction = () => {
-  return <>Call to action</>;
+  return <section className="call-to-action-section">Call to action</section>;
 };
 
 export default CallToAction;

@@ -4,11 +4,23 @@ import "./Header.css";
 const Header = () => {
   let navigate = useNavigate();
 
-  const handleNavigate = () => {
-    navigate("/teste");
+  const handleNavigate = (url: string = "/") => {
+    navigate(url);
   };
 
-  return <button onClick={handleNavigate}>workit</button>;
+  return (
+    <header className="header-section">
+      <div className="logo" onClick={() => handleNavigate()}>
+        workit
+      </div>
+      <div
+        className="green-underline"
+        onClick={() => handleNavigate("/apply")}
+      >
+        Appy for access
+      </div>
+    </header>
+  );
 };
 
 export default Header;
