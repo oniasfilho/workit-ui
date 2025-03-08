@@ -1,0 +1,22 @@
+.header-section {
+  height: 3rem;
+  min-width: var(---min-width);
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  padding: var(--standard-padding);
+}
+
+.logo {
+  background-image: url("../../assets/images/logo-light.svg");
+  background-size: cover;
+  height: 1.5rem;
+  width: 6rem;
+  cursor: pointer;
+}
+
+.apply-button {
+  cursor: pointer;
+  color: var(--color-white);
+}

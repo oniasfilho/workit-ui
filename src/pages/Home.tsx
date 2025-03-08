@@ -6,13 +6,13 @@ import Hero from "../components/Hero/Hero";
 
 const Home = () => {
   return (
-    <>
+    <div className="home-wrapper">
       <Header />
       <Hero />
       <Feature />
       <CallToAction />
       <Footer />
-    </>
+    </div>
   );
 };
 

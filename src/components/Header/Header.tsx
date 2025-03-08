@@ -10,14 +10,9 @@ const Header = () => {
 
   return (
     <header className="header-section">
-      <div className="logo" onClick={() => handleNavigate()}>
-        workit
-      </div>
-      <div
-        className="green-underline"
-        onClick={() => handleNavigate("/apply")}
-      >
-        Appy for access
+      <div className="logo" onClick={() => handleNavigate()}></div>
+      <div className="green-underline apply-button" onClick={() => handleNavigate("/apply")}>
+        Apply for access
       </div>
     </header>
   );

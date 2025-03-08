@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -37,6 +40,10 @@
   --line-height-md: 64px;
   --line-height-sm: 32px;
   --line-height-body: 32px;
+
+  --standard-padding: 2rem 1rem;
+
+  --min-width: 375px;
 
   --button-primary-bg: var(--color-secondary);
   --button-primary-text: var(--color-primary);
@@ -121,5 +128,34 @@ body {
 }
 
 .green-underline {
-  border-bottom: var(--color-secondary) 1px solid;
+  text-decoration: underline var(--color-secondary) 0.125rem;
+  text-underline-offset: 1rem;
+  transition: color 0.3s ease, font-weight 0.3s ease, transform 0.3s ease;
+}
+
+.green-underline:hover {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-semi-bold);
+  transform: scale(1.02);
+}
+
+.home-wrapper {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: repeat(5, 1fr);
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --standard-padding: 2rem 2rem;
+    --min-width: 768px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --standard-padding: 2rem 10rem;
+    --min-width: 1440px;
+  }
 }
