@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #24053e;
+  --color-secondary: #44ffa1;
+  --color-dark-gray: #584d62;
+  --color-light-gray: #f7f3f7;
+  --color-white: #ffffff;
+
+  --font-heading: 'Fraunces 144', serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --font-weight-semi-bold: 600;
+  --font-weight-regular: 400;
+
+  --font-size-lg: 80px;
+  --font-size-md: 56px;
+  --font-size-sm: 32px;
+  --font-size-body: 18px;
+
+  --line-height-lg: 80px;
+  --line-height-md: 64px;
+  --line-height-sm: 32px;
+  --line-height-body: 32px;
+
+  --button-primary-bg: var(--color-secondary);
+  --button-primary-text: var(--color-primary);
+  --button-primary-hover-border: var(--color-secondary);
+
+  --button-secondary-bg: transparent;
+  --button-secondary-text: var(--color-white);
+  --button-secondary-hover-border: var(--color-secondary);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+h1 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+h2 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+h3 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+}
+
+.button-primary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  padding: 12px 24px;
+  border: none;
+  font-weight: var(--font-weight-semi-bold);
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  border: 2px solid var(--button-primary-hover-border);
+  background: transparent;
+  color: var(--button-primary-hover-border);
+}
+
+.button-secondary {
+  background: var(--button-secondary-bg);
+  color: var(--button-secondary-text);
+  padding: 12px 24px;
+  border: 2px solid var(--button-secondary-text);
+  font-weight: var(--font-weight-semi-bold);
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  border: 2px solid var(--button-secondary-hover-border);
+  color: var(--button-secondary-hover-border);
+}
