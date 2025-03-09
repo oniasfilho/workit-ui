@@ -4,8 +4,9 @@ const Hero = () => {
   return (
     <main className="hero-section">
       <div className="hero-text">
-        Data <span className="hero-underline-text">tailored</span> to your
-        needs.
+        Data <span className="hero-underline-text">tailored</span> to
+        <br />
+        your needs.
       </div>
       <div className="learn-more-button">
         <button className="button-primary">Lean more</button>

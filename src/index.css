@@ -46,6 +46,9 @@
 
   --min-width: 375px;
 
+  --hero-img-width: 90%;
+  --hero-img-max-width: 500px;
+
   --button-primary-bg: var(--color-secondary);
   --button-primary-text: var(--color-primary);
   --button-primary-hover-border: var(--color-secondary);
@@ -170,6 +173,9 @@ body {
   :root {
     --standard-padding: 2rem 2rem;
     --min-width: 768px;
+
+    --hero-img-width: 90%;
+    --hero-img-max-width: 750px;
   }
 }
 
@@ -177,5 +183,8 @@ body {
   :root {
     --standard-padding: 2rem 10rem;
     --min-width: 1440px;
+
+    --hero-img-width: 90%;
+    --hero-img-max-width: 850px;
   }
 }
