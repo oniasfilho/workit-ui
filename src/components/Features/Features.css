@@ -46,12 +46,17 @@
     text-align: left;
     margin-bottom: 5rem;
   }
+
+  .features-section {
+    padding: 2rem 5rem;
+  }
 }
 
 @media (min-width: 1440px) {
   .features-section {
     display: flex;
     gap: 1rem;
+    padding: 2rem 10rem;
   }
 
   .single-feature {
