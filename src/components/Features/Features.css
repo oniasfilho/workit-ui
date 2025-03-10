@@ -49,6 +49,7 @@
 
   .features-section {
     padding: 2rem 5rem;
+    padding-bottom: 0;
   }
 }
 

@@ -47,6 +47,7 @@
 @media (min-width: 768px) {
   .call-to-action-section {
     padding: 2rem 5rem;
+    padding-top: 0;
     position: relative;
   }
   .founder-image {
@@ -75,8 +76,8 @@
     background-image: url("../../assets/images/bg-pattern-3.svg");
     height: 200px;
     width: 200px;
-    bottom: -300px;
-    right: 100px;
+    bottom: -150px;
+    right: 150px;
     transform: translateY(-50%);
   }
 }
@@ -108,7 +109,7 @@
     background-image: url("../../assets/images/bg-pattern-3.svg");
     height: 200px;
     width: 200px;
-    bottom: -300px;
+    bottom: -150px;
     right: 240px;
     transform: translateY(-50%);
   }

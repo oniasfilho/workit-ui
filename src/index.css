@@ -166,7 +166,7 @@ body {
 .home-wrapper {
   display: grid;
   min-height: 100vh;
-  grid-template-rows: auto auto 500px 500px 500px;
+  grid-template-rows: auto auto auto auto auto;
   background-color: var(--color-white);
 }
 
