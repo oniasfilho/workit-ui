@@ -4,7 +4,6 @@
   flex-direction: column;
   color: var(--color-dark-gray);
   font-size: var(--font-size-sm);
-  min-width: var(--min-width);
 }
 
 .founder-image {
@@ -14,7 +13,7 @@
   aspect-ratio: 16 / 9;
   background-position: center;
   transform: translateY(20%);
-  min-height: 300px;
+  max-height: 287px;
 }
 
 .cta-content {
