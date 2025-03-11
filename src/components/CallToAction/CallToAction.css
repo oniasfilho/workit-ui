@@ -14,7 +14,7 @@
   aspect-ratio: 16 / 9;
   background-position: center;
   transform: translateY(20%);
-  height: 287px;
+  min-height: 300px;
 }
 
 .cta-content {
