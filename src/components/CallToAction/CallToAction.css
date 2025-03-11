@@ -116,5 +116,6 @@
 
   .call-to-action-section {
     padding: 2rem 10rem;
+    padding-top: 0px;
   }
 }
